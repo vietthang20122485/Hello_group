@@ -6,6 +6,8 @@
 
 package helloworld;
 
+import java.util.Scanner;
+
 /**
  *
  * @author vietthang
@@ -18,6 +20,12 @@ public class HelloWorld {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Hello World!");
+        System.out.println("ok chua dai ca");
+        Scanner sc = new Scanner(System.in);
+        System.out.print("hay nhap vao 1 ki tu: ");
+        String str = sc.nextLine();
+        System.out.println("Ki tu ban vua nhap la:"+str);
+        
     }
     
 }
