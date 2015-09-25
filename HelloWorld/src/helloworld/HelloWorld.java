@@ -25,7 +25,7 @@ public class HelloWorld {
         System.out.print("hay nhap vao 1 ki tu: ");
         String str = sc.nextLine();
         System.out.println("Ki tu ban vua nhap la:"+str);
-        
+        System.out.println("Sophea hahaha");
     }
     
 }
